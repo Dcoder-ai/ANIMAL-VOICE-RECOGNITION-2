@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background: rgb(219, 136, 11);
+}
+
+.header-div {
+    background: white;
+    color: red;
+}
+
+.header_div p {
+    font-family: 'Permanent Marker', cursive;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div button {
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: grey;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(101, 108, 120);
+
+}
+
+body:hover {
+    background-image: linear-gradient(to top right, blue, cyan, skyblue, white);
+
+}
